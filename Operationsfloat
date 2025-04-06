@@ -1,0 +1,27 @@
+import java.util.Scanner; // Import Scanner class to take user input
+
+class Operationsfloat {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); // Creating Scanner object for user input
+		
+		// Prompting the user to enter three integer numbers
+		System.out.println("Enter number1:");
+		double a = input.nextDouble(); // Reading first number
+		System.out.println("Enter number2:");
+		double b = input.nextDouble(); // Reading second number
+		System.out.println("Enter number3:");
+		double c = input.nextDouble(); // Reading third number
+		
+		// Performing arithmetic operations using different orders of precedence
+		double operation1 = a + b * c; // Multiplication has higher precedence than addition
+		double operation2 = a * b + c; // Multiplication before addition
+		double operation3 = c + a / b; // Division before addition
+		double operation4 = a % b + c; // Modulus before addition
+		
+		// Displaying the results of all arithmetic operations
+		System.out.println("The results of Int Operations are " + operation1 + " , " + operation2 + 
+		                   " , " + operation3 + " and " + operation4);
+		
+		input.close(); // Closing the Scanner object to prevent resource leaks
+	}
+}
