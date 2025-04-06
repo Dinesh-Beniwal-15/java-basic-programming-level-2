@@ -1,0 +1,21 @@
+import java.util.Scanner; // Import Scanner class to take user input
+
+class Distanceinyardsandmiles {
+   public static void main(String[] args) {
+       Scanner input = new Scanner(System.in); // Creating Scanner object for user input
+
+       System.out.println("Enter distance (feet):"); // Prompting user to enter distance in feet
+       double feet = input.nextDouble(); // Reading distance value from user
+
+       // Converting feet to yards (1 yard = 3 feet)
+       double yard = feet / 3.0;
+       
+       // Converting yards to miles (1 mile = 1760 yards)
+       double mile = yard / 1760.0;
+       
+       // Displaying the converted distances
+       System.out.println("The distance of " + feet + " feet is " + yard + " yards and " + mile + " miles.");
+
+       input.close(); // Closing the Scanner object to prevent resource leaks
+   }
+}
