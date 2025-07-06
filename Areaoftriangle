@@ -7,7 +7,7 @@ class Areaoftriangle {
        System.out.println("Enter base:"); // Prompting user for base input
        double base = input.nextDouble(); // Reading base value from user 
 
-       System.out.println("Enter height:"); // Prompting user for height input 
+       System.out.println("Enter height:"); // Prompting user for height input  
        double height = input.nextDouble(); // Reading height value from user
 
        // Calculating the area of the triangle using the formula: (1/2) * base * height
