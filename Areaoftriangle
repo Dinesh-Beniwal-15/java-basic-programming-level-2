@@ -3,7 +3,7 @@ import java.util.Scanner; // Import Scanner class to take user input
 class Areaoftriangle {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
- 
+  
        System.out.println("Enter base:"); // Prompting user for base input
        double base = input.nextDouble(); // Reading base value from user
 
