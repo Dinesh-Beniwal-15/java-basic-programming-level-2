@@ -9,7 +9,7 @@ class Calculator {
        double variable1 = input.nextDouble(); // Storing the first number
 
        // Asking the user to enter the second number
-       System.out.println("Enter second number:");
+       System.out.println("Enter second number:"); 
        double variable2 = input.nextDouble(); // Storing the second number
 
        // Performing basic arithmetic operations
