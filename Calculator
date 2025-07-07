@@ -5,7 +5,7 @@ class Calculator {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
    
        // Asking the user to enter the first number 
-       System.out.println("Enter first number:"); 
+       System.out.println("Enter first number:");  
        double variable1 = input.nextDouble(); // Storing the first number
 
        // Asking the user to enter the second number
