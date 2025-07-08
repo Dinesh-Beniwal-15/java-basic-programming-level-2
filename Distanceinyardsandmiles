@@ -3,7 +3,7 @@ import java.util.Scanner; // Import Scanner class to take user input
 class Distanceinyardsandmiles {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
-
+ 
        System.out.println("Enter distance (feet):"); // Prompting user to enter distance in feet 
        double feet = input.nextDouble(); // Reading distance value from user
 
