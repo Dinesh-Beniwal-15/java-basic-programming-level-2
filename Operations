@@ -8,7 +8,7 @@ class Operations {
 		System.out.println("Enter number1:"); 
 		int a = input.nextInt(); // Reading first number
 		System.out.println("Enter number2:");
-		int b = input.nextInt(); // Reading second number 
+		int b = input.nextInt(); // Reading second number  
 		System.out.println("Enter number3:");
 		int c = input.nextInt(); // Reading third number
 		
