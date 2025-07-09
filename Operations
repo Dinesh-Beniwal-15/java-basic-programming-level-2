@@ -5,7 +5,7 @@ class Operations {
 		Scanner input = new Scanner(System.in); // Creating Scanner object for user input
 		 
 		// Prompting the user to enter three integer numbers
-		System.out.println("Enter number1:");
+		System.out.println("Enter number1:"); 
 		int a = input.nextInt(); // Reading first number
 		System.out.println("Enter number2:");
 		int b = input.nextInt(); // Reading second number
