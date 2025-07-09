@@ -7,7 +7,7 @@ class Operations {
 		// Prompting the user to enter three integer numbers
 		System.out.println("Enter number1:"); 
 		int a = input.nextInt(); // Reading first number
-		System.out.println("Enter number2:");
+		System.out.println("Enter number2:"); 
 		int b = input.nextInt(); // Reading second number  
 		System.out.println("Enter number3:");
 		int c = input.nextInt(); // Reading third number
