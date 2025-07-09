@@ -3,7 +3,7 @@ import java.util.Scanner; // Import Scanner class to take user input
 class Operations {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Creating Scanner object for user input
-		
+		 
 		// Prompting the user to enter three integer numbers
 		System.out.println("Enter number1:");
 		int a = input.nextInt(); // Reading first number
