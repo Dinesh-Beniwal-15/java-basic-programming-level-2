@@ -5,7 +5,7 @@ class Operationsfloat {
 		Scanner input = new Scanner(System.in); // Creating Scanner object for user input
 		 
 		// Prompting the user to enter three integer numbers
-		System.out.println("Enter number1:");
+		System.out.println("Enter number1:"); 
 		double a = input.nextDouble(); // Reading first number  
 		System.out.println("Enter number2:"); 
 		double b = input.nextDouble(); // Reading second number
