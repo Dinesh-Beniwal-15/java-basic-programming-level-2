@@ -7,7 +7,7 @@ class Quotientandremainder {
        System.out.println("Enter first number:"); // Prompting user to enter first number  
        double number1 = input.nextDouble(); // Reading first number from user
 	   
-	   System.out.println("Enter second number:"); // Prompting user to enter second number 
+	   System.out.println("Enter second number:"); // Prompting user to enter second number  
        double number2 = input.nextDouble(); // Reading second number from user
 	   
 	   // Calculating remainder using modulus operator (%)
