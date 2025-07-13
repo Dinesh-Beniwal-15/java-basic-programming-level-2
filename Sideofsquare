@@ -8,7 +8,7 @@ class Sideofsquare {
        double perimeter = input.nextDouble(); // Reading perimeter value from user 
 
        // Calculating the side length of the square using the formula: side = perimeter / 4
-       double sideofsquare = perimeter / 4.0;
+       double sideofsquare = perimeter / 4.0; 
 
        // Displaying the calculated side length along with the given perimeter
        System.out.println("The length of the side is " + sideofsquare + " whose perimeter is " + perimeter);
