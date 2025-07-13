@@ -5,7 +5,7 @@ class Sideofsquare {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
  
        System.out.println("Enter perimeter of square:"); // Prompting user to enter perimeter 
-       double perimeter = input.nextDouble(); // Reading perimeter value from user 
+       double perimeter = input.nextDouble(); // Reading perimeter value from user  
 
        // Calculating the side length of the square using the formula: side = perimeter / 4
        double sideofsquare = perimeter / 4.0; 
