@@ -1,5 +1,5 @@
 import java.util.Scanner; // Import Scanner class to take user input
-
+ 
 class Sideofsquare {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
