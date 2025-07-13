@@ -3,7 +3,7 @@ import java.util.Scanner; // Import Scanner class to take user input
 class Sideofsquare {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
-
+ 
        System.out.println("Enter perimeter of square:"); // Prompting user to enter perimeter
        double perimeter = input.nextDouble(); // Reading perimeter value from user
 
