@@ -4,7 +4,7 @@ class Totalpriceofitem {
    public static void main(String[] args) {
        Scanner input = new Scanner(System.in); // Creating Scanner object for user input
   
-       System.out.println("Enter item price:"); // Prompting user to enter item price
+       System.out.println("Enter item price:"); // Prompting user to enter item price 
        double price = input.nextDouble(); // Reading item price from user
 	   
 	   System.out.println("Enter item quantity:"); // Prompting user to enter item quantity
